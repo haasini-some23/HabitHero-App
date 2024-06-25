@@ -14,6 +14,12 @@
 		377C34B22C268F2000FDE309 /* FinalAppProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C34B12C268F2000FDE309 /* FinalAppProjectTests.swift */; };
 		377C34BC2C268F2000FDE309 /* FinalAppProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C34BB2C268F2000FDE309 /* FinalAppProjectUITests.swift */; };
 		377C34BE2C268F2000FDE309 /* FinalAppProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C34BD2C268F2000FDE309 /* FinalAppProjectUITestsLaunchTests.swift */; };
+		377C34CD2C26953B00FDE309 /* newpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C34CC2C26953B00FDE309 /* newpage.swift */; };
+		37A40C582C2B378300721E58 /* CalenderFullView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A40C572C2B378300721E58 /* CalenderFullView.swift */; };
+		37A40C5C2C2B37BC00721E58 /* HabitOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A40C5B2C2B37BC00721E58 /* HabitOne.swift */; };
+		37A40C5E2C2B37D000721E58 /* HabitTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A40C5D2C2B37D000721E58 /* HabitTwo.swift */; };
+		37A40C602C2B37E200721E58 /* HabitThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A40C5F2C2B37E200721E58 /* HabitThree.swift */; };
+		37A40C622C2B37FC00721E58 /* ImprovementOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A40C612C2B37FC00721E58 /* ImprovementOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		377C34B72C268F2000FDE309 /* FinalAppProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalAppProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C34BB2C268F2000FDE309 /* FinalAppProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppProjectUITests.swift; sourceTree = "<group>"; };
 		377C34BD2C268F2000FDE309 /* FinalAppProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalAppProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		377C34CC2C26953B00FDE309 /* newpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newpage.swift; sourceTree = "<group>"; };
+		37A40C572C2B378300721E58 /* CalenderFullView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderFullView.swift; sourceTree = "<group>"; };
+		37A40C5B2C2B37BC00721E58 /* HabitOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitOne.swift; sourceTree = "<group>"; };
+		37A40C5D2C2B37D000721E58 /* HabitTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTwo.swift; sourceTree = "<group>"; };
+		37A40C5F2C2B37E200721E58 /* HabitThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitThree.swift; sourceTree = "<group>"; };
+		37A40C612C2B37FC00721E58 /* ImprovementOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprovementOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,11 @@
 		377C34942C268F1B00FDE309 = {
 			isa = PBXGroup;
 			children = (
+				37A40C572C2B378300721E58 /* CalenderFullView.swift */,
+				37A40C5B2C2B37BC00721E58 /* HabitOne.swift */,
+				37A40C5D2C2B37D000721E58 /* HabitTwo.swift */,
+				37A40C5F2C2B37E200721E58 /* HabitThree.swift */,
+				37A40C612C2B37FC00721E58 /* ImprovementOne.swift */,
 				377C349F2C268F1B00FDE309 /* FinalAppProject */,
 				377C34B02C268F2000FDE309 /* FinalAppProjectTests */,
 				377C34BA2C268F2000FDE309 /* FinalAppProjectUITests */,
@@ -95,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				377C34A02C268F1B00FDE309 /* FinalAppProjectApp.swift */,
+				377C34CC2C26953B00FDE309 /* newpage.swift */,
 				377C34A22C268F1B00FDE309 /* ContentView.swift */,
 				377C34A42C268F1F00FDE309 /* Assets.xcassets */,
 				377C34A62C268F1F00FDE309 /* Preview Content */,
@@ -258,7 +276,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				377C34A32C268F1B00FDE309 /* ContentView.swift in Sources */,
+				37A40C582C2B378300721E58 /* CalenderFullView.swift in Sources */,
+				377C34CD2C26953B00FDE309 /* newpage.swift in Sources */,
+				37A40C5E2C2B37D000721E58 /* HabitTwo.swift in Sources */,
+				37A40C602C2B37E200721E58 /* HabitThree.swift in Sources */,
+				37A40C5C2C2B37BC00721E58 /* HabitOne.swift in Sources */,
 				377C34A12C268F1B00FDE309 /* FinalAppProjectApp.swift in Sources */,
+				37A40C622C2B37FC00721E58 /* ImprovementOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
